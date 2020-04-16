@@ -1,5 +1,4 @@
-var elbjson={
-{
+text=`{
   "version": "2.0",
   "metadata": {
     "apiVersion": "2012-06-01",
@@ -1001,7 +1000,5 @@ var elbjson={
       "member": {}
     }
   }
-}
-
-
-}
+}`
+var elbjson = JSON.parse(text);
